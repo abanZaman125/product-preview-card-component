@@ -28,10 +28,16 @@ Users should be able to:
 
 ### What I learned
 
-To see how you can add code snippets, see below:
+I learned that to add an svg icon into a button element, you just keep the button element open and insert the svg there.
+<br/>[Taken from StackOverflow](https://stackoverflow.com/questions/34393465/add-svg-icon-into-button-with-css-html)
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<button id="search-button"> <!-- This is what I mean -->
+    <svg id="search-icon" class="search-icon" viewBox="0 0 24 24">
+        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+        <path d="M0 0h24v24H0z" fill="none"/>
+    </svg>
+ </button> <!-- This is what I mean -->
 ```
 ```css
 .proud-of-this-css {
@@ -46,12 +52,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
